@@ -10,7 +10,7 @@ cd mensagens
 ```
 * **Abra o Projeto no Xcode:**
 
-Navegue até o arquivo `Mensagens.xcodeproj` e abra-o com o Xcode.
+Navegue até o arquivo `ComprasUSA.xcodeproj` e abra-o com o Xcode.
 
 * **Instale as Dependências:**
 
