@@ -9,7 +9,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
     @IBOutlet weak var dolarTf: UITextField!
-    @IBOutlet weak var iofTf: UILabel!
+    @IBOutlet weak var iofTf: UITextField!
     @IBOutlet weak var stateTaxesTf: UITextField!
     
     override func viewDidLoad() {

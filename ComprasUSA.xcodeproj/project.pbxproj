@@ -16,6 +16,7 @@
 		4E337FEA2C079022001A4110 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E337FE92C079022001A4110 /* SettingsViewController.swift */; };
 		4E337FEC2C079042001A4110 /* TaxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E337FEB2C079042001A4110 /* TaxesViewController.swift */; };
 		4E337FEE2C0E8FC6001A4110 /* TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E337FED2C0E8FC6001A4110 /* TaxesCalculator.swift */; };
+		4E337FF02C0E9897001A4110 /* UIViewController+TaxesCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E337FEF2C0E9897001A4110 /* UIViewController+TaxesCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4E337FE92C079022001A4110 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		4E337FEB2C079042001A4110 /* TaxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesViewController.swift; sourceTree = "<group>"; };
 		4E337FED2C0E8FC6001A4110 /* TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculator.swift; sourceTree = "<group>"; };
+		4E337FEF2C0E9897001A4110 /* UIViewController+TaxesCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				4E337FEB2C079042001A4110 /* TaxesViewController.swift */,
 				4E337FDB2C0775FB001A4110 /* Main.storyboard */,
 				4E337FED2C0E8FC6001A4110 /* TaxesCalculator.swift */,
+				4E337FEF2C0E9897001A4110 /* UIViewController+TaxesCalculator.swift */,
 				4E337FDE2C0775FE001A4110 /* Assets.xcassets */,
 				4E337FE02C0775FE001A4110 /* LaunchScreen.storyboard */,
 				4E337FE32C0775FE001A4110 /* Info.plist */,
@@ -151,6 +154,7 @@
 				4E337FD62C0775FB001A4110 /* AppDelegate.swift in Sources */,
 				4E337FEC2C079042001A4110 /* TaxesViewController.swift in Sources */,
 				4E337FEE2C0E8FC6001A4110 /* TaxesCalculator.swift in Sources */,
+				4E337FF02C0E9897001A4110 /* UIViewController+TaxesCalculator.swift in Sources */,
 				4E337FD82C0775FB001A4110 /* SceneDelegate.swift in Sources */,
 				4E337FEA2C079022001A4110 /* SettingsViewController.swift in Sources */,
 			);
