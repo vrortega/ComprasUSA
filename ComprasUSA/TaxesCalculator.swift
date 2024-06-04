@@ -34,7 +34,7 @@ class TaxesCalculator {
         if usingCreditCard {
             finalValue += iofValue
         }
-        return finalValue
+        return finalValue * dolar
     }
         
     func convertToDouble(_ string: String) -> Double {

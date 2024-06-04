@@ -17,9 +17,21 @@ class SettingsViewController: UIViewController {
         dolarTf.text = tc.getFormattedValue(of: tc.dolar, withCurrency: "")
         iofTf.text = tc.getFormattedValue(of: tc.iof, withCurrency: "")
         stateTaxesTf.text = tc.getFormattedValue(of: tc.stateTax, withCurrency: "")
-
-        // Do any additional setup after loading the view.
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
+    func setValues() {
+        tc.dolar = tc.convertToDouble(dolarTf.text!)
+        tc.iof = tc.convertToDouble(iofTf.text!)
+        tc.stateTax = tc.convertToDouble(stateTaxesTf.text!)
+    }
+}
 
+extension SettingsViewController: UITextFieldDelegate {
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        setValues()
+    }
 }

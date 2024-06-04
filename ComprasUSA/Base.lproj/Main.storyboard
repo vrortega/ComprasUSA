@@ -29,13 +29,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eDT-pL-UHB">
-                                <rect key="frame" x="127" y="118" width="226" height="48"/>
+                                <rect key="frame" x="127" y="118" width="225" height="48"/>
                                 <color key="textColor" red="0.78122681380000003" green="0.1978848875" blue="0.11756739770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="32"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Valor sem impostos " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YB2-Yh-JBZ">
-                                <rect key="frame" x="40" y="378" width="154" height="21"/>
+                                <rect key="frame" x="39" y="378" width="154" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 0,00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dO0-wG-jBZ">
-                                <rect key="frame" x="40" y="421" width="331" height="40"/>
+                                <rect key="frame" x="39" y="421" width="332" height="40"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="33"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -121,7 +121,10 @@
                                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="0.4025423218603848" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.78122681380000003" green="0.1978848875" blue="0.11756739770000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="Grd-sd-dsd" id="i8k-Hj-u3Y"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -139,7 +142,10 @@
                                                 <color key="backgroundColor" red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="0.30671006806042728" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <color key="textColor" systemColor="systemGreenColor"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="Grd-sd-dsd" id="MlX-4Y-Rii"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -157,7 +163,10 @@
                                                 <color key="backgroundColor" red="0.11945102931736233" green="0.16421679516772289" blue="1" alpha="0.4025423218603848" colorSpace="calibratedRGB"/>
                                                 <color key="textColor" red="0.20371624830000001" green="0.4708764553" blue="0.96475440260000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                                <textInputTraits key="textInputTraits"/>
+                                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                                <connections>
+                                                    <outlet property="delegate" destination="Grd-sd-dsd" id="grp-j9-hm2"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                     </stackView>
@@ -225,7 +234,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U$ 0,0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Caj-rN-BAy">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="U$ 0,0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Caj-rN-BAy">
                                         <rect key="frame" x="307" y="61" width="66" height="28"/>
                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="23"/>
                                         <nil key="textColor"/>
@@ -244,7 +253,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXS-sr-M0t">
-                                        <rect key="frame" x="324" y="140" width="51" height="31"/>
+                                        <rect key="frame" x="324" y="139.66666666666669" width="51" height="31"/>
+                                        <connections>
+                                            <action selector="changeIOF:" destination="WKA-Zp-Ef9" eventType="valueChanged" id="Aky-Vw-LOt"/>
+                                        </connections>
                                     </switch>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total em R$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Au-q0-xhy">
                                         <rect key="frame" x="20" y="202" width="130" height="28"/>
@@ -279,7 +291,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Caj-rN-BAy" secondAttribute="trailing" constant="20" id="emh-wR-vt7"/>
                                     <constraint firstItem="2d8-ck-Mu0" firstAttribute="top" secondItem="BAk-Iw-JiK" secondAttribute="bottom" constant="10" id="eqS-iS-fX5"/>
                                     <constraint firstItem="62q-9G-4bz" firstAttribute="top" secondItem="ddp-9g-lPi" secondAttribute="bottom" constant="10" id="icJ-Gp-UhT"/>
-                                    <constraint firstItem="Caj-rN-BAy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2d8-ck-Mu0" secondAttribute="trailing" constant="8" symbolic="YES" id="kC7-gU-lk5"/>
+                                    <constraint firstItem="Caj-rN-BAy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="2d8-ck-Mu0" secondAttribute="trailing" constant="8" id="kC7-gU-lk5"/>
                                     <constraint firstItem="Caj-rN-BAy" firstAttribute="trailing" secondItem="btx-RZ-gHh" secondAttribute="trailing" id="kDr-bG-Onk"/>
                                     <constraint firstItem="EZ4-My-Sx5" firstAttribute="trailing" secondItem="bXS-sr-M0t" secondAttribute="trailing" id="koV-LZ-8Wg"/>
                                     <constraint firstItem="ddp-9g-lPi" firstAttribute="leading" secondItem="2d8-ck-Mu0" secondAttribute="leading" id="mcp-4s-11c"/>
@@ -310,6 +322,7 @@
                         <outlet property="dolarLb" destination="btx-RZ-gHh" id="U4a-5l-e9l"/>
                         <outlet property="iofDescriptionLb" destination="ddp-9g-lPi" id="QRn-vG-Rnt"/>
                         <outlet property="iofLb" destination="crJ-UL-8G3" id="MVc-0a-7am"/>
+                        <outlet property="realLb" destination="EZ4-My-Sx5" id="Zu9-l4-jJQ"/>
                         <outlet property="stateTaxesDescriptionLb" destination="2d8-ck-Mu0" id="yfu-hM-V5N"/>
                         <outlet property="stateTaxesLb" destination="Caj-rN-BAy" id="UR5-l4-lo2"/>
                     </connections>
@@ -327,6 +340,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.80000000000000004" green="0.20000000000000001" blue="0.54117647058823526" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="7jH-Tb-DOG"/>
