@@ -14,6 +14,9 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        dolarTf.text = tc.getFormattedValue(of: tc.dolar, withCurrency: "")
+        iofTf.text = tc.getFormattedValue(of: tc.iof, withCurrency: "")
+        stateTaxesTf.text = tc.getFormattedValue(of: tc.stateTax, withCurrency: "")
 
         // Do any additional setup after loading the view.
     }
